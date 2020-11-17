@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script defer src="gra.js"></script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        #okButton {
+            height: 50px;
+            width: 100px;
+            border: 2px solid black;
+            color: black;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin-top: -25px;
+            margin-left: -50px;
+            z-index: 12;
+        }
+
+        #monit {
+            width: 300px;
+            height: 200px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -150px;
+            background-color: white;
+            border-radius: 5px;
+            text-align: center;
+            z-index: 11;
+        }
+
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        #obrazek {
+            height: 200px;
+        }
+
+        #planszaKon {
+            height: 630px;
+        }
+
+        .kontener {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+        }
+
+        .button {
+            width: 30px;
+            height: 20px;
+            margin: 5px;
+        }
+
+        .plytka {
+            position: absolute;
+            background-image: url(grafika.jpg);
+            background-repeat: no-repeat;
+            border: 1px solid orange;
+        }
+
+        #obrazekNaGorze {
+            width: 200px;
+            height: 200px;
+        }
+
+        #plansza {
+            width: 600px;
+            height: 600px;
+            position: relative;
+            border: 1px solid orange;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+
+</html>
