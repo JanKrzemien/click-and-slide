@@ -15,6 +15,39 @@
             padding: 0;
         }
 
+        #ranking {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            display: none;
+            background: white;
+        }
+
+        #ranking p {
+            text-align: center;
+        }
+
+        #ranking table {
+            width: 300px;
+            margin-left: 50%;
+            transform: translate(-150px);
+        }
+
+        #input {
+            height: 20px;
+            width: 200px;
+            border: 1px solid black;
+            color: black;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            margin-top: -10px;
+            margin-left: -100px;
+            z-index: 12;
+        }
+
         #okButton {
             height: 50px;
             width: 100px;
@@ -23,7 +56,7 @@
             position: fixed;
             left: 50%;
             top: 50%;
-            margin-top: -25px;
+            margin-top: 20px;
             margin-left: -50px;
             z-index: 12;
         }
@@ -52,8 +85,21 @@
             background-color: rgba(0, 0, 0, 0.5);
         }
 
+        #overflow {
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+
         #obrazek {
             height: 200px;
+        }
+
+        #obrazek>img {
+            width: 150px;
+            height: 50px;
+            margin: 5px;
         }
 
         #planszaKon {
@@ -70,21 +116,36 @@
         }
 
         .button {
-            width: 30px;
+            width: 60px;
             height: 20px;
             margin: 5px;
         }
 
         .plytka {
             position: absolute;
-            background-image: url(grafika.jpg);
             background-repeat: no-repeat;
             border: 1px solid orange;
         }
 
-        #obrazekNaGorze {
+        .obrazekNaGorze {
             width: 200px;
             height: 200px;
+            position: absolute;
+        }
+
+        #img1 {
+            left: -200px;
+            top: 0px;
+        }
+
+        #img2 {
+            left: 0px;
+            top: 0px;
+        }
+
+        #img3 {
+            left: 200px;
+            top: 0px;
         }
 
         #plansza {
